@@ -1,4 +1,10 @@
-﻿Console.WriteLine("Введите ваше имя ");
-string Любоеимя = Console.ReadLine();
+﻿Console.Write("Введите ваше имя: ");
+string username = Console.ReadLine(); 
 Console.Write("Превет, ");
-Console.WriteLine(Любоеимя);
+Console.Write(username);
+Console.WriteLine(".");
+
+//Console.ReadLine() - метод для чтения каждой строки в файле, заменяет каждую последовательность 
+//из четырех пробелов символом табуляции и использует Console. WriteLine метод для записи результата в выходной файл.
+
+//// string - тип данных, значениями которого является произвольная последовательность (строка) символов алфавита.

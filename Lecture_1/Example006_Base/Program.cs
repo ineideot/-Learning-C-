@@ -12,5 +12,7 @@ if (c > max) max = c;
 if (d > max) max = d;
 if (e > max) max = e;
 
-Console.Write(" max = ");
+Console.Write("max = ");
 Console.WriteLine(max);
+
+// Ищем максимальное число из имеющихся.
