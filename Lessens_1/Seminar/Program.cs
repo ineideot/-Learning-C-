@@ -1,15 +1,15 @@
 ﻿/*
-Console.WriteLine("Good evening! "); Строка записи консоли в () и затем в "" пишем для пользователя
+Console.WriteLine("Good evening! "); //Строка записи консоли в () и затем в "" пишем сообщение для пользователя.
 Console.Write("Input int number: ");
 
-int num = Convert.ToInt32(Console.ReadLine());
-//int num = 5;
-Console.WriteLine(num);
-Console.WriteLine("Its new number " + num + " and its good");
-Console.WriteLine($"Its new number {num} and its good");
+int num = Convert.ToInt32(Console.ReadLine());  // Переносим из правой стороны( то чно написал пользователь в консоль) в левую.
+
+Console.WriteLine(num);                                           // Просто выводится значение "num".
+Console.WriteLine("Its new number " + num + " and its good");     // " + num + "
+Console.WriteLine($"Its new number {num} and its good");          // {num} - одно и тоже, если в начаале поставить символ $.
 */
 
-//Задача.1. Напишите программу, которая на вход принемает число и выводит его квадрат (сисло умноженное на само себя).
+//Задача.1. Напишите программу, которая на вход принемает число и выводит его квадрат (число умноженное на само себя).
 
 /*
 Console.Write("Input int number: ");
