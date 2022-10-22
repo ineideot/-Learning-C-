@@ -1,4 +1,4 @@
-﻿int[] array = { 1, 22, 13, 54, 2, 63, 17, 6};
+﻿int[] array = { 1, 22, 13, 63, 2, 89, 17, 6 };
 
 int Max1(int arg1, int arg2, int arg3, int arg4)
 {
@@ -21,4 +21,19 @@ int max = Max2(
     Max1(array[4], array[5], array[6], array[7])
 );
 
-Console.WriteLine($"Максимум {max}"); 
+Console.WriteLine($"Максимум {max}");
+
+int n = array.Length;
+int find = max;
+
+int index = 0;
+
+while (index < n)
+{
+    if (array[index] == find)
+    {
+        Console.WriteLine($"А индекс этого числа будет {index}");
+        break;
+    }
+    index++;
+}
