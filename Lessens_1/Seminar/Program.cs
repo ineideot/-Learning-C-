@@ -2,7 +2,7 @@
 Console.WriteLine("Good evening! "); //Строка записи консоли в () и затем в "" пишем сообщение для пользователя.
 Console.Write("Input int number: ");
 
-int num = Convert.ToInt32(Console.ReadLine());  // Переносим из правой стороны( то чно написал пользователь в консоль) в левую.
+int num = Convert.ToInt32(Console.ReadLine());  // Переносим из правой стороны( то чtо написал пользователь в консоль) в левую.
 
 Console.WriteLine(num);                                           // Просто выводится значение "num".
 Console.WriteLine("Its new number " + num + " and its good");     // " + num + "
