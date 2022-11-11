@@ -28,7 +28,6 @@ void Polidrom(int num)
     }
 };
 
-//цикл, пока не введет 5-знак
 while (true)
 {
     Console.Write("Введите пятизначное число: ");
