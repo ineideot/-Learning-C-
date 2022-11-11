@@ -40,7 +40,7 @@ while (true)
     }
     else
     {
-        Console.Write($" ");
+        Console.Write("");
     };
 
 }
