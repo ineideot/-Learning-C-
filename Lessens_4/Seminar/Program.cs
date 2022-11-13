@@ -1,25 +1,25 @@
 ﻿// Напишите программу, которая принимает на вход число (А) и 
 // выдаёт сумму чисел от 1 до А.
 
-// int FindSum(int a)
-// {
-//     int sum = 0;
-//     for (int curr = 1; curr <= a; curr++)
-//     {
-//         sum += curr; //sum = sum+ curr;
-//     }
-//     return sum;
-// }
-// Console.Write("Напишите любое число: ");
-// int n = Convert.ToInt32(Console.ReadLine());
-// if (n > 1)
-// {
-//     Console.WriteLine($"Сумма чисел от 1 до {n} будет {FindSum(n)}");
-// }
-// else
-// {
-//     Console.WriteLine("Введите положительное число");
-// }
+int FindSum(int a)
+{
+    int sum = 0;
+    for (int curr = 1; curr <= a; curr++)
+    {
+        sum += curr; //sum = sum+ curr;
+    }
+    return sum;
+}
+Console.Write("Напишите любое число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+if (n > 1)
+{
+    Console.WriteLine($"Сумма чисел от 1 до {n} будет {FindSum(n)}");
+}
+else
+{
+    Console.WriteLine("Введите положительное число");
+}
 
 
 
